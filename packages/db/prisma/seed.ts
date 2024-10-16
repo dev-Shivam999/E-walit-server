@@ -10,6 +10,7 @@ async function main() {
       number: '1111111111',
       password: await bcrypt.hash('alice', 10),
       name: 'alice',
+      email: 'alice@',
       Balance: {
         create: {
           amount: 20000,
@@ -31,6 +32,7 @@ async function main() {
     where: { number: '2222222222' },
     update: {},
     create: {
+      email: "bob@",
       number: '2222222222',
       password: await bcrypt.hash('bob', 10),
       name: 'bob',
