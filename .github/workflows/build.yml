@@ -18,11 +18,11 @@ jobs:
       with:
        version: '20'
     - name  : Install Dependence
-      uses : npm i
+      run : npm i
     # - name : prisma 
     #   uses  : npm run db:generate 
     - name : Build
-      uses: npm run build  
+      run: npm run build  
 
 
 
