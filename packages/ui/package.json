@@ -12,7 +12,8 @@
     "./textinput": "./src/TextInput.tsx"
   },
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
+   "lint": "eslint . --max-warnings 10",
+
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {

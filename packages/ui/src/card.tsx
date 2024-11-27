@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export function Card({
   title,
@@ -9,7 +9,7 @@ export function Card({
 }): JSX.Element {
   return (
     <div
-      className="border p-6 bg-white rounded-xl bg-[#ededed]" >
+      className="border p-6  rounded-xl bg-[#ededed]" >
       <h1 className="text-xl border-b pb-2">
         {title}
       </h1>
