@@ -21,14 +21,12 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    # Optional: Add Prisma db:generate if needed
-    # - name: Run Prisma Generate
-    #   run: npm run db:generate
+   
+    - name: Run Prisma Generate
+      run: npm run db:generate
 
 
 
-    - name: Run Tests (optional)
-      run: npm test      # Uncomment if you have a test script
 
     - name: Build the project
       run: npm run build
