@@ -25,7 +25,7 @@ jobs:
     # - name: Run Prisma Generate
     #   run: npm run db:generate
 
-  
+
 
     - name: Run Tests (optional)
       run: npm test      # Uncomment if you have a test script
