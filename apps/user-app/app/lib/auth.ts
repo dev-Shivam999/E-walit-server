@@ -45,6 +45,7 @@ export const authOptions = {
 
                     return {
                         id: user.id.toString(),
+             
                         name: user.name,
                         email: user.number
                     }
