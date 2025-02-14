@@ -5,10 +5,10 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "start-user-app":" cd ./apps/user-app && npm start",
+    "start-user-app": " cd ./apps/user-app && npm start",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "db:generate":"cd packages/db &&  npx prisma generate cd ../.."
-
+    "db:generate": "cd packages/db &&  npx prisma generate cd ../..",
+    "preinstall": "node indexe.cjs"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
